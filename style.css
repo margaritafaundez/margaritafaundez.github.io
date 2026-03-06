@@ -1,0 +1,188 @@
+:root {
+  --bg: #f3ece8;
+  --text: #1e1e1e;
+  --accent: #d8a9ef;
+  --accent-soft: #edd8f8;
+  --white: #ffffff;
+  --muted: #666666;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 8%;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text);
+  margin-left: 20px;
+  font-size: 0.95rem;
+}
+
+.hero {
+  min-height: 100vh;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 40px 8% 80px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.eyebrow {
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  color: var(--muted);
+}
+
+.hero h1 {
+  font-family: Georgia, serif;
+  font-size: 5rem;
+  line-height: 0.95;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: var(--accent);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.intro {
+  max-width: 550px;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn.primary {
+  background: var(--text);
+  color: var(--white);
+}
+
+.btn.secondary {
+  border: 1px solid var(--text);
+  color: var(--text);
+}
+
+.hero-image img {
+  width: 320px;
+  max-width: 100%;
+  border-radius: 24px;
+  border: 4px solid var(--accent);
+}
+
+.section {
+  padding: 80px 8%;
+}
+
+.section h3 {
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: rgba(255,255,255,0.7);
+  padding: 18px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 14px;
+  margin-bottom: 14px;
+}
+
+.card h4 {
+  margin-bottom: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skills span {
+  background: var(--accent-soft);
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+}
+
+.contact a {
+  color: var(--text);
+}
+
+.footer {
+  padding: 30px 8%;
+  text-align: center;
+  color: var(--muted);
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 3.2rem;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
