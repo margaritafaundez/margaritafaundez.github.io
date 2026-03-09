@@ -74,10 +74,11 @@ body {
 }
 
 .hero h2 {
-  font-size: 2rem;
+  font-size: 28px;
   color: var(--accent);
   margin-bottom: 18px;
   font-weight: 500;
+  line-height: 1.2;
 }
 
 .intro {
