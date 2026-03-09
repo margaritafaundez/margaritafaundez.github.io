@@ -180,6 +180,11 @@ body {
 
 .contact a {
   color: var(--text);
+  transition: 0.2s;
+}
+
+.contact a:hover {
+  transform: scale(1.05);
 }
 
 .footer {
