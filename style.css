@@ -41,6 +41,7 @@ body {
   color: var(--text);
   margin-left: 20px;
   font-size: 0.95rem;
+  display: inline-block;
   transition: 0.2s;
 }
 
@@ -180,6 +181,7 @@ body {
 
 .contact a {
   color: var(--text);
+  display: inline-block;
   transition: 0.2s;
 }
 
