@@ -32,15 +32,18 @@ body {
 }
 
 .logo {
-  background: #d9a9ad;
+  background: #733636;
   color: white;
-  padding: 12px 14px;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Arial Narrow", Arial, sans-serif;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 20px;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  display: inline-block;
-  border-radius: 6px;
+  letter-spacing: 2px
 }
 
 .nav-links a {
