@@ -32,8 +32,15 @@ body {
 }
 
 .logo {
+  background: #d9a9ad;
+  color: white;
+  padding: 12px 14px;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 6px;
 }
 
 .nav-links a {
